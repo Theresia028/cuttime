@@ -1,0 +1,94 @@
+body{
+    background-color: #DFE9F5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    background-color: #1f8fc3;
+    color: rgb(196, 196, 196);
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+}
+.warna_huruf{
+    color: #d7d94f;
+    font-weight: bold;
+}
+fieldset{
+    margin: 10px 0px;
+    letter-spacing: 2px;
+    font-weight: 530;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: none ;
+    box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+}
+span{
+    display: block;
+    width: auto;
+    height: 5px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 3px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+/* form input */
+.form-input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #310b37;
+    color: #fff;
+    font-size: 18px;
+}
+button{
+    width: 100%;
+}
+
+/* button back login */
+.Back-Login{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #24a0ed;
+}
+/* btn daftar */
+.daftar{
+    background-color: rgb(66, 186, 150);
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* bagian ATAU */
+.atau {
+    display: flex;
+    align-items: baseline;
+    transform: translateY(15%);
+}
+.span1{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 3px;
+    transform: translateY(-70%);
+}
+.span2 {
+    background-color: transparent;
+    width: 10%;
+}

@@ -1,0 +1,9 @@
+
+img{
+	box-sizing: border-box;
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+}

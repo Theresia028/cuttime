@@ -1,0 +1,196 @@
+
+body{
+	display: flex;
+	border: 1px ;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #DFE9F5;
+}
+.container{
+    height: 100%;
+    width: 850px;
+    padding: 10px;
+}
+.contain img {
+	border-radius: 100%;
+	max-width: 10rem;
+	text-align: center;
+	margin: 10px 0;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+
+}
+.button1{
+	margin: 10px 0;
+}
+h2 {
+	margin: 10px 0;
+}
+h4 {
+	margin: 10px 0;
+}
+/* untuk unfollow */
+button.btn_unfollow{
+	background-color: red;
+	letter-spacing: 2px;
+	font-weight: 530;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 160px;
+	overflow: hidden;
+	margin: 0 10px;
+	background: none ;
+	position: relative;
+	box-shadow: 2px 2px 4px rgba(80, 44, 47, 0.6),-2px -2px 4px rgb(185, 41, 41);
+	transition: all 500ms ease;
+}
+button.btn_unfollow:hover{
+	color: rgb(255, 255, 255);
+}
+button.btn_unfollow:hover::after{
+	left: 0;
+}
+button.btn_unfollow::after {
+
+	transition: all 300ms ease;
+	z-index: -1;
+	border-radius: 10px;
+	content: "";
+	top: 0;
+	left: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ff0000;
+}
+/* batas suci unfollow */
+
+button.btn1{
+	letter-spacing: 2px;
+	font-weight: 530;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 160px;
+	overflow: hidden;
+	margin: 0 10px;
+	background: none ;
+	position: relative;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+	transition: all 500ms ease;
+}
+button.btn1:hover{
+	color: white;
+}
+button.btn1:hover::after{
+	left: 0;
+}
+button.btn1::after {
+
+	transition: all 300ms ease;
+	z-index: -1;
+	border-radius: 10px;
+	content: "";
+	top: 0;
+	left: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #006DB2;
+}
+div.button2{
+	margin: 20px 0;
+}
+.button2 button img{
+	border-radius: 100%;
+	max-width: 5rem;
+	margin: 10px 0;
+
+}
+button.btn2{
+	letter-spacing: 2px;
+	font-weight: 530;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 160px;
+	overflow: hidden;
+	margin: 0 10px;
+	background: none ;
+	position: relative;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+
+}
+button.btn2:hover{
+	color: white;
+}
+button.btn2:hover::after{
+	left: 0;
+}
+button.btn2::after {
+	opacity: 0.8;
+
+	z-index: -1;
+	border-radius: 10px;
+	content: "";
+	top: 0;
+	left: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #006DB2;
+}
+button.btn2 img{
+
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-size: 2em;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 160px;
+	background: #006DB2 ;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+}
+
+fieldset{
+	margin: 10px 0px;
+	letter-spacing: 2px;
+	font-weight: 530;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 20px;
+	width: 750px;
+	background: none ;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+}
+.status img {
+	border-radius: 100%;
+	max-width: 4rem;
+	margin: 10px 0;
+	box-shadow: 2px 2px 4px rgba(44,62,80,0.6),-2px -2px 4px rgba(41,128,185,1);
+}
+img.img2{
+	border-radius: 10px;
+	max-width: 30rem;
+	margin: 10px 0;
+
+}
+div.kotak{
+	margin: 20px 0;
+	
+
+}
+h3{
+	padding: 10px;
+}
